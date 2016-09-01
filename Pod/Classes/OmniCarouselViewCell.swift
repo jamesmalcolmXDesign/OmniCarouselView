@@ -39,7 +39,7 @@ class OmniCarouselViewCell: UICollectionViewCell {
     
     func setup() {        
         self.contentView.autoresizingMask = autoresizingMask;
-        self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        self.imageView.contentMode = UIViewContentMode.ScaleAspectFill
         self.addSubview(self.imageView)
     }
     
